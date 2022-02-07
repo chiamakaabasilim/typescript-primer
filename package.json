@@ -1,0 +1,26 @@
+{
+  "name": "typescript-primer",
+  "version": "1.0.0",
+  "description": "amakas classwork",
+  "main": "index.js",
+  "scripts": { 
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "npm run build && node build/index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiamakaabasilim/typescript-primer.git"
+  },
+  "author": "amaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiamakaabasilim/typescript-primer/issues"
+  },
+  "homepage": "https://github.com/chiamakaabasilim/typescript-primer#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "typescript": "^4.5.5"
+  }
+}
